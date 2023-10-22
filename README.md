@@ -25,7 +25,6 @@ Ce projet a été créé en Node.js et Express.
 |   ├── 📄 authRouter.js
 |   ├── 📄 pkmRouter.js
 |   ├── 📄 userRouter.js
-|__ 📁 types
 
 📄 index.js
 .env
