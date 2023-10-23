@@ -9,7 +9,7 @@ const userRouter = require ('./routes/userRouter');
 
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://mathildejjt:mW7I8pceUqvQtI5p@cluster0.waldcrb.mongodb.net/?retryWrites=true&w=majority', {useNewUrlParser: true})
+mongoose.connect('mongodb+srv://{user}:{password}@cluster0.waldcrb.mongodb.net/?retryWrites=true&w=majority', {useNewUrlParser: true})
     .then(()=>console.log('MongoDB Connected'))
     .catch(err => console.log(err));
 
